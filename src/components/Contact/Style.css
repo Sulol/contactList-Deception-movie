@@ -1,0 +1,71 @@
+.block-tele {
+    display: flex;
+    padding: 3px;
+}
+.block-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+
+.block-mess {
+    border-bottom: 1px solid #DEDEDE;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.block-tele__name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.block-tele__message{
+    color: #8C8C8C; 
+}
+
+.tag {
+    color: #54759E;
+}
+.block_status {
+    position: relative;
+}
+.greenButton {
+    width: 15px;
+    height: 15px;
+    background-color: #5EC245;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.grayButton {
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+.time {
+    margin-top: 10px;
+    color: #797979;
+}
+.true {
+    width: 25px;
+    height: 25px;
+    background-color: #5EC245;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.false {
+    display: none;
+}
